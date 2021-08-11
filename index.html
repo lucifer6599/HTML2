@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="new_css.css">
     <style>
       *{
         margin:0;
@@ -12,8 +13,13 @@
     </style>
   </head>
   <body>
-    <h1>BAKERY</h1>
-      <img src="./image/cake.jpeg" alt="">
+
+    
+    <div class="cake-pic">
+      <h1>BAKERY</h1>
+      <img src="./image/cakepic.jpg" alt="">
+    </div>
+     <div class="menu">
       <h2>Menu</h2>
       <ul>
         <li>Cakes</li>
@@ -21,6 +27,17 @@
         <li>Red Velvet</li>
         <li>Doughnut</li>
       </ul>
+      <div class="menu__img">
+      <figure>
+        <img src="./image/cake.jpeg" alt="">
+        <figcaption>Cake</figcaption>
+      </figure>
+      <figure>
+        <img src="./image/doughnut.jpeg" alt="">
+        <figcaption>Doughnut</figcaption>
+      </figure>
+    </div>
+    </div>
       <h2>Feedbacks</h2>
       <!-- Description -->
       <h2>About</h2>
@@ -41,11 +58,11 @@
       <input type="email" required>
       <br>
       <label>Mobile</label>
-      <input type="tel" required>
+      <input type="tel">
       <br>
       <label>Comment</label>
       <br>
-      <textarea cols="50" rows="10" required>Comment</textarea>
+      <textarea cols="50" rows="10" placeholder="Comment" required></textarea>
       <br>
       <input type="submit"/>
     </form>

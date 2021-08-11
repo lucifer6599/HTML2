@@ -1,0 +1,17 @@
+
+
+.cake-pic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.cake-pic>img{
+    width: 100vw;
+    height: 100vh;
+    block-size: fit-content;
+}
+.menu__img{
+    display:flex;
+    justify-content: space-between;
+}
