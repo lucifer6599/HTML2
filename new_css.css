@@ -53,6 +53,7 @@
     display: flex;
     justify-content: space-evenly;
     background-color: springgreen;
+    flex-wrap: wrap;
 }
 .menu__img>figure>figcaption{
     text-align: center;
