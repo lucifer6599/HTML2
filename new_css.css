@@ -10,6 +10,7 @@
 }
 .navbar{
     background-color: black;
+    opacity:0.8;
     color: snow;
     text-align: center; 
     display: flex;
@@ -38,6 +39,7 @@
     text-align: center;
     background-color: black;
     color: snow;
+    opacity:0.8;
 }
 .menu>ul{
     list-style: none;
@@ -73,6 +75,7 @@
     background-color: black;
     color: white;
     text-align: center;
+    opacity:0.8;
 }
 .feedback>p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -88,6 +91,7 @@
     background-color: black;
     color: white;
     text-align: center;
+    opacity:0.8;
 }
 .about__matter{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -102,6 +106,7 @@ h2{
     text-align: center;
     color: snow;
     margin-bottom:10px;
+    opacity:0.8;
 }
 
 
