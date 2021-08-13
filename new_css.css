@@ -14,7 +14,10 @@
     text-align: center; 
     display: flex;
     flex-wrap: wrap;
-   
+    position:sticky;
+    top: 0;
+    z-index:0;
+
 }
 .navbar>h1{
     flex:1;
@@ -129,5 +132,9 @@ h2{
 .footer>a{
     text-decoration: none;
     background-color: coral;
-    border-radius: 20px;
+    color: snow;
+    margin:3px;
+    padding:2px;
+    position: fixed;
+    bottom: 0;
 }
