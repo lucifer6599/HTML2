@@ -22,12 +22,17 @@
 }
 .navbar>h1{
     flex:1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .navbar>a{
     color: snow;
     text-decoration: none;
     align-self: center;
     flex: 1;
+}
+.navbar>a:hover{
+    border-bottom:2px solid snow;
+    
 }
 
 .section1>img{
